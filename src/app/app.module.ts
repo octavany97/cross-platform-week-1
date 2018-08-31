@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { FirstPage } from '../pages/first/first';
 import { SecondPage } from '../pages/second/second';
+import { ParamGetPage } from '../pages/param-get/param-get';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     FirstPage,
-    SecondPage
+    SecondPage,
+    ParamGetPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { SecondPage } from '../pages/second/second';
     MyApp,
     HomePage,
     FirstPage,
-    SecondPage
+    SecondPage,
+    ParamGetPage
   ],
   providers: [
     StatusBar,

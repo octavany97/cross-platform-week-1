@@ -14,5 +14,6 @@
 
 
 <ion-content padding>
-  <button ion-button (click)="goToSecondPage()">Go to Second Page</button>
+  <!-- <button ion-button (click)="goToSecondPage()">Go to Second Page</button> -->
+  <button ion-button [navPush]="secondPage" [navParams]="paramName">Go to Second Page</button>
 </ion-content>

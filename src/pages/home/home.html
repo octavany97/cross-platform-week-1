@@ -8,5 +8,7 @@
 
 <ion-content padding>
   <button ion-button (click)="showText()">Click this button</button><br>
-  <button ion-button (click)="goToFirstPage()">Go to First Page</button>
+  <!-- <button ion-button (click)="goToFirstPage()">Go to First Page</button><br> -->
+  <button ion-button [navPush]="firstPage" [navParams]="params">Go to First Page</button><br>
+  <button ion-button (click)="onButtonClicked()">Go to Param Get</button>
 </ion-content>
